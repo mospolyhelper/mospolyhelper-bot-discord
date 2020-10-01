@@ -31,7 +31,6 @@ namespace ScheduleDiscordBot
 
             client.GuildAvailable += Client_GuildAvailable;
             
-
             // Block this task until the program is closed.
             await Task.Delay(-1);
         }
